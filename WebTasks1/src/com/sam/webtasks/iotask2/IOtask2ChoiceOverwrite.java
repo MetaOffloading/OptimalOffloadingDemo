@@ -43,7 +43,7 @@ public class IOtask2ChoiceOverwrite {
 			IOtask2BlockContext.setOffloadCondition(Names.REMINDERS_MANDATORY_TARGETONLY);
 			IOtask2BlockContext.setActualPoints(IOtask2BlockContext.currentTargetValue());
 		} else {
-			overwriteString = "We will stick with <b>your choice</b> this time.<br><br>";
+			overwriteString = "The computer will stick with <b>your choice</b> this time.<br><br>";
 			
 			if (IOtask2BlockContext.getReminderChoice() == 0) {
 				overwriteString = overwriteString + remindInstruction;

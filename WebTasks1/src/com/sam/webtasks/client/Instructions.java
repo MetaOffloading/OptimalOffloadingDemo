@@ -11,21 +11,21 @@ public class Instructions {
 		 
 		switch(index) {
 		case 0:
-            i = "Thank you for taking part in this experiment. You may "
-                    + "only participate in this experiment if you have followed  "
-                    + "the link from the Prolific website. You "
+            i = "You will now complete a web-based task before returning to the survey. You may "
+                    + "only participate in this experiment if you have completed the  "
+                    + "first survey and followed this link from the second survey. You "
                     + "will not receive any compensation otherwise."
                     + "<br><br>Please close any programs "
                     + "that could cause distraction (e.g. email clients) and "
                     + "maximise the size of this window.<br><br>This experiment will take "
                     + "approximately 20 minutes. Please only continue when you think "
-                    + "you will be free from distractions for the next 20 minutes.<br><br>"
-                    + "As compensation for completing "
-                    + "this experiment, you will receive £2.25 via the Prolific "
-                    + "system.<br><br>You may withdraw at any time without penalty, simply by "
+                    + "you will be free from distractions for the next 20 minutes. When you have "
+                    + "completed this task, you will be redirected back to the survey to answer "
+                    + " some further questions.<br><br>"
+                    + "<br><br>You may withdraw at any time without penalty, simply by "
                     + "closing your browser window. If you are having difficulty "
                     + "running the experiment we recommend that you try using Google "
-                    + "Chrome. Unfortunately the experiment may not be compatible with all "
+                    + "Chrome. Unfortunately, the experiment may not be compatible with all "
                     + "systems and we apologise if you are not able to take part.";
             break;
         case 1:
@@ -84,8 +84,8 @@ public class Instructions {
             break;
         case 6:
         	i = "From now on, you will score points every time you drag one of the special circles "  
-					+ "to the correct border.<br><br>You should try to score as many points as you can.<br><br>"
-					+ "The top 50% of participants will receive an additional bonus payment of £0.50.<br><br>";
+					+ "to the correct border.<br><br>You should try to score as many points as you can.<br><br>";
+				
         	break;
         case 61:
         	i = "Each time you do the task, you will have a choice between two options. One option will be to "
@@ -107,8 +107,7 @@ public class Instructions {
         			+ "If you use reminders, the exact number of points you can win for each special circle will vary, "
         			+ "but it will always be less than 10. You will always be told exactly "
         			+ "how many points the special circles are worth, before you make your choice.<br><br>"
-        			+ "Please make your decisions carefully to make sure you score as many points as possible. This "
-        			+ "will give you the best chance to earn the additional £0.50 bonus payment.<br><br>"
+        			+ "Please make your decisions carefully to make sure you score as many points as possible."
         			+ "Click below for some more practice.";
         	break;
         case 7:
@@ -146,7 +145,7 @@ public class Instructions {
 					+ "this phenomenon. In particular, we are interested in understanding "
 					+ "how confidence in your own memory might guide your decision to ask for "
 					+ "a reminder.<br><br>"
-					+ "Please click on the link below to receive your payment:<br><br>"
+					+ "Please click on the link below to return to the survey and complete the study:<br><br>"
 					+ "<b><a href=\"https://app.prolific.co/submissions/complete?cc=4DC3A396\">"
 					+ "CLICK HERE</a></b>";
 			break;
@@ -156,7 +155,7 @@ public class Instructions {
 	}
 	
 	public static String InfoText() {
-		return ("We would like to invite you to participate in this research project. "
+		return ("This is the second part of a two-part research study. "
                 + "You should only participate if you want to; choosing not to take part "
                 + "will not disadvantage you in any way. Before you decide whether you "
                 + "want to take part, please read the following information carefully and "
@@ -168,9 +167,8 @@ public class Instructions {
                 + "and you will be asked to move them with your computer mouse. Sometimes you will be asked to remember "
                 + "particular numbers and move the corresponding circle in a particular direction. You will be asked how "
                 + "confident you are in your ability to solve the task. "
-                + "The experiment "
-                + "will last approximately 20 minutes and you will receive a payment of £2.25 via the "
-                + "Prolific payment system. There are no anticipated risks or "
+                + "The experiment will last approximately 20 minutes"
+                + "There are no anticipated risks or "
                 + "benefits associated with participation in this study.<br><br>"
                 + "It is up to you to decide whether or not to take part. If you choose "
                 + "not to participate, you won't incur any penalties or lose any "
@@ -190,7 +188,7 @@ public class Instructions {
                 + "We aim to publish the results of this project in scientific journals and book chapters. Copies of the "
                 + "results can either be obtained directly from the scientific journals' websites or from us.<br><br>"
                 + "Should you wish to raise a complaint, please contact the Investigator of this project, "
-                + "Dr Annika Boldt (<a href=\"mailto:a.boldt@ucl.ac.uk\">a.boldt@ucl.ac.uk</a>), or the Principal Investigator "
+                + "Ms Ava Scott (<a href=\"mailto:ava.scott.20@ucl.ac.uk\">ava.scott.20@ucl.ac.uk</a>), or the Principal Investigator "
                 + "Dr Sam Gilbert (<a href=\\\"mailto:sam.gilbert@ucl.ac.uk\\\">sam.gilbert@ucl.ac.uk</a>). However, "
                 + "if you feel your complaint has not been handled to your satisfaction, please be aware that you can "
                 + "also contact the Chair of the UCL Research Ethics Committee (<a href=\"mailto:ethics@ucl.ac.uk\">ethics@ucl.ac.uk</a>).");
