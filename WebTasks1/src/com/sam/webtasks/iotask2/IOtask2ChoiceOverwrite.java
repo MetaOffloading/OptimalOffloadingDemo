@@ -24,8 +24,8 @@ public class IOtask2ChoiceOverwrite {
 		final HorizontalPanel horizontalPanel = new HorizontalPanel();
 		final VerticalPanel verticalPanel = new VerticalPanel();
 		final HorizontalPanel buttonPanel = new HorizontalPanel();
-		String overwriteString = "";
-		
+		String overwriteString = "" ;
+		 
 		int overwriteState = IOtask2BlockContext.currentOverwriteChoice();
 		
 		String remindInstruction = "You must do the task <b>without</b> setting any reminders.<br><br>";

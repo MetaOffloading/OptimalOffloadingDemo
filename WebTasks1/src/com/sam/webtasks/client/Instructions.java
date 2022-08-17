@@ -154,8 +154,8 @@ public class Instructions {
 		return(i);	
 	}
 	
-	public static String InfoText() {
-		return ("This is the second part of a two-part research study. "
+	public static String InfoText() { 
+		return (" This is the second part of a two-part research study. "
                 + "You should only participate if you want to; choosing not to take part "
                 + "will not disadvantage you in any way. Before you decide whether you "
                 + "want to take part, please read the following information carefully and "
