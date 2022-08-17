@@ -192,13 +192,6 @@ public class SequenceHandler {
 				block7.Run();
 				break;
 			case 20:
-				ClickPage.Run(Instructions.Get(9),  "Next");
-				break;
-			case 21:
-				ProgressBar.Increment();
-				XMQ.Run();
-				break;
-			case 22:
 				ProgressBar.Hide();
 				
 				// log data and check that it saves

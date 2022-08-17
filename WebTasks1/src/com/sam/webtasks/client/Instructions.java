@@ -146,7 +146,7 @@ public class Instructions {
 					+ "how confidence in your own memory might guide your decision to ask for "
 					+ "a reminder.<br><br>"
 					+ "Please click on the link below to return to the survey and complete the study:<br><br>"
-					+ "<b><a href=\"https://app.prolific.co/submissions/complete?cc=4DC3A396\">"
+					+ "<b><a href=\"https://uclpsych.eu.qualtrics.com/jfe/form/SV_bwSq5GbvmrYv4Me?PROLIFIC_PID={{%PROLIFIC_PID%}}&lsf=${e://Field/lastSurveyFinished}\">"
 					+ "CLICK HERE</a></b>";
 			break;
 		}
@@ -155,7 +155,7 @@ public class Instructions {
 	}
 	
 	public static String InfoText() { 
-		return (" This is the second part of a two-part research study. "
+		return ("This is the second part of a two-part research study. "
                 + "You should only participate if you want to; choosing not to take part "
                 + "will not disadvantage you in any way. Before you decide whether you "
                 + "want to take part, please read the following information carefully and "
