@@ -204,7 +204,7 @@ public class SequenceHandler {
 				PHP.UpdateStatus("finished");
 				PHP.logData("finish", data, true);
 				break;
-			case 23:
+			case 21:
 				ClickPage.Run(Instructions.Get(10), "nobutton");
 				break;
 			}
