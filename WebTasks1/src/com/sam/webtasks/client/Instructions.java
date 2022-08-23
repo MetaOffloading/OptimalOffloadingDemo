@@ -46,7 +46,7 @@ public class Instructions {
                     + "bottom of the screen, there will sometimes be special "
                     + "circles that initially appear in a different colour. You should drag these "
                     + "special circles, in another direction (left, top, or right) instead of towards the bottom.<br><br>"
-                    + "The circle's initial colour is an instruction telling you where they should go.<br><br>"
+                    + "Each circle's initial colour is an instruction telling you where they should go.<br><br>"
                     + "For example, suppose that the circle with 7 in it was first shown in blue "
                     + "when it appeared on the screen. That would be an instruction that "
                     + "when you get to 7 in the sequence, you should drag that circle "
@@ -75,8 +75,8 @@ public class Instructions {
             break;
         case 5:
         	i="Now we are going to explain a strategy that can make the task easier.<br><br>"
-                    + "When you see a special circle, you can set a reminder by immediately dragging it to a "
-                    + "different part of the box. For example, if a circle initially appeared in blue, you "
+                    + "When you see a special circle, you can </b>set a reminder by immediately dragging it to a "
+                    + "different part of the box</b>. For example, if a circle initially appeared in blue, you "
                     + "could immediately drag it next to the blue (left) side of the box. Then, when "
                     + "you get to that circle in the sequence its location would remind you where it is supposed "
                     + "to go.<br><br>Please now try the task again, using this strategy to help you.";
