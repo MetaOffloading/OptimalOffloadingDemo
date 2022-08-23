@@ -11,7 +11,7 @@ public class Instructions {
 		 
 		switch(index) {
 		case 0:
-            i = "You will now complete a web-based task before returning to the survey. You may "
+            i = "You will now complete <b>a web-based task</b> before returning to the survey. You may "
                     + "only participate in this experiment if you have completed the  "
                     + "first survey and followed this link from the second survey. You "
                     + "will not receive any compensation otherwise."
@@ -30,11 +30,11 @@ public class Instructions {
             break;
         case 1:
         	i="In this part of the experiment you will have a simple task to do.<br><br>"
-                    + "You will see several yellow circles inside a box. "
+                    + "You will see </b>several yellow circles</b> inside a box. "
                     + "Inside each circle will be a number. <br><br>"
                     + "You can move them around using your mouse, or drag them with your finger if "
-                    + "you are using a touchscreen. Your task is to drag them to the bottom "
-                    + "of the box in sequence. "
+                    + "you are using a touchscreen. </b>Your task is to drag them to the bottom "
+                    + "of the box in sequence.</b> "
                     + "Please start by dragging 1 all the way to the bottom. "
                     + "This will make it disappear. Then drag 2 to the bottom, then 3, "
                     + "and so on.<br><br>Click below to practise the task.";
@@ -44,10 +44,9 @@ public class Instructions {
 			i="Now you will continue the same task, but sometimes there will be something else to "
                     + "do.<br><br>As well as dragging each circle in turn to the "
                     + "bottom of the screen, there will sometimes be special "
-                    + "circles that you should drag in another direction (left, top, or right) instead of towards the bottom.<br><br>"
-                    + "These special circles will initially appear in a different colour "
-                    + "when they are first shown on the screen, instead of yellow. This is an "
-                    + "instruction telling you where they should go.<br><br>"
+                    + "circles that initially appear in a different colour. You should drag these "
+                    + "special circles, in another direction (left, top, or right) instead of towards the bottom.<br><br>"
+                    + "The circle's initial colour is an instruction telling you where they should go.<br><br>"
                     + "For example, suppose that the circle with 7 in it was first shown in blue "
                     + "when it appeared on the screen. That would be an instruction that "
                     + "when you get to 7 in the sequence, you should drag that circle "
