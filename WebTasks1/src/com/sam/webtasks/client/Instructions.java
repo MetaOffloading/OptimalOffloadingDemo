@@ -59,7 +59,7 @@ public class Instructions {
             break;
         case 3:
 			i = "Well done. Now it will get more difficult.<br><br>There will be a total of 15 "
-	        			+ "circles and 7 of them will be special ones that should go to one of the "
+	        			+ "circles and " + Params.nTargets + " of them will be special ones that should go to one of the "
 	        			+ "coloured sides of the box.<br><br> "
 	        			+ "Don't worry if you do not remember all of them. That's fine - "
 	        			+ "just try to remember as many as you can.<br><br>"

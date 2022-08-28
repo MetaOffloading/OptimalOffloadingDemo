@@ -108,7 +108,7 @@ public class SequenceHandler {
 			case 7:
 				IOtask2Block block3 = new IOtask2Block();
 				
-				block3.nTargets = 7;
+				block3.nTargets = Params.nTargets;
 				block3.totalCircles = 15;
 				block3.offloadCondition = Names.REMINDERS_NOTALLOWED;
 				block3.blockNum = 3;
@@ -128,7 +128,7 @@ public class SequenceHandler {
 			case 11:
 				IOtask2Block block4 = new IOtask2Block();
 				
-				block4.nTargets = 7;
+				block4.nTargets = Params.nTargets;
 				block4.totalCircles = 15;
 				block4.offloadCondition = Names.REMINDERS_MANDATORY_TARGETONLY;
 				block4.blockNum = 4;
@@ -148,7 +148,7 @@ public class SequenceHandler {
 			case 15:
 				IOtask2Block block5 = new IOtask2Block();
 				
-				block5.nTargets = 7;
+				block5.nTargets = Params.nTargets;
 				block5.totalCircles = 15;
 				block5.targetValues.add(1);
 				block5.blockNum = 5;
@@ -162,7 +162,7 @@ public class SequenceHandler {
 			case 17:
 				IOtask2Block block6 = new IOtask2Block();
 				
-				block6.nTargets = 7;
+				block6.nTargets = Params.nTargets;
 				block6.totalCircles = 15;
 				block6.standard24blockprac = true;
 				block6.blockNum = 6;
@@ -180,7 +180,7 @@ public class SequenceHandler {
 				
 				IOtask2Block block7 = new IOtask2Block();
 				
-				block7.nTargets = 7;
+				block7.nTargets = Params.nTargets;
 				block7.totalCircles = 15;
 				block7.standard16block = true;
 				block7.updateProgressText = true;
