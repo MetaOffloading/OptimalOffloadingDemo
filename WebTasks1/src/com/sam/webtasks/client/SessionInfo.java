@@ -16,7 +16,7 @@ public class SessionInfo {
 	public static String experimentCode="AS1";
 	
 	//which version of the experiment is this?
-	public static int experimentVersion=1;
+	public static int experimentVersion=2;
 	
 	//what is the minimum permitted screen size in pixels?
 	//if the screen is smaller than this the participant will be asked
