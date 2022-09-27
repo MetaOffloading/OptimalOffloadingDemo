@@ -13,15 +13,14 @@ public class Instructions {
 		case 0:
             i = "You will now complete <b>a web-based task</b> before returning to the survey. You may "
                     + "only participate in this experiment if you have completed the  "
-                    + "first survey and followed this link from the second survey. You "
-                    + "will not receive any compensation otherwise."
+                    + "first survey. You will not receive any compensation otherwise."
                     + "<br><br>Please close any programs "
                     + "that could cause distraction (e.g. email clients) and "
                     + "maximise the size of this window.<br><br>This experiment will take "
                     + "approximately 20 minutes. Please only continue when you think "
                     + "you will be free from distractions for the next 20 minutes. When you have "
                     + "completed this task, you will be redirected back to the survey to answer "
-                    + " some further questions.<br><br>"
+                    + "some further questions.<br><br>"
                     + "<br><br>You may withdraw at any time without penalty, simply by "
                     + "closing your browser window. If you are having difficulty "
                     + "running the experiment we recommend that you try using Google "
@@ -59,7 +58,7 @@ public class Instructions {
             break;
         case 3:
 			i = "Well done. Now it will get more difficult.<br><br>There will be a total of 15 "
-	        			+ "circles and " + Params.nTargets + " of them will be special ones that should go to one of the "
+	        			+ "circles and 7 of them will be special ones that should go to one of the "
 	        			+ "coloured sides of the box.<br><br> "
 	        			+ "Don't worry if you do not remember all of them. That's fine - "
 	        			+ "just try to remember as many as you can.<br><br>"
@@ -136,17 +135,9 @@ public class Instructions {
 					+ "Please start the questionnaire when you are ready.";
 			break;
         case 10:
-			i = "You have now completed the experiment. Thank you for taking part.<br><br>"
-					+ "In the present study we tried to understand how people choose to set "
-					+ "reminders. Previous studies have shown that the simple act of "
-					+ "using a reminder may improve our memory for subsequent information. "
-					+ "In this study, we want to study the cognitive mechanisms behind "
-					+ "this phenomenon. In particular, we are interested in understanding "
-					+ "how confidence in your own memory might guide your decision to ask for "
-					+ "a reminder.<br><br>"
-					+ "Please click on the link below to return to the survey and complete the study:<br><br>"
-					+ "<b><a href=\"https://uclpsych.eu.qualtrics.com/jfe/form/SV_dojGwYhhWyflvrE?PROLIFIC_PID=" 
-					+ SessionInfo.participantID + "\">"
+			i = "You have now completed the experiment."
+					+ "Please click on the link below to return to the survey and complete the first session:<br><br>"
+					+ "<b><a href=\"https://uclpsych.eu.qualtrics.com/jfe/form/SV_dojGwYhhWyflvrE?PROLIFIC_PID={{%PROLIFIC_PID%}}\">"
 					+ "CLICK HERE</a></b>";
 			break;
 		}
