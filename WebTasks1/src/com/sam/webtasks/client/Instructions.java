@@ -145,7 +145,7 @@ public class Instructions {
 					+ "how confidence in your own memory might guide your decision to ask for "
 					+ "a reminder.<br><br>"
 					+ "Please click on the link below to return to the survey and complete the study:<br><br>"
-					+ "<b><a href=\"https://uclpsych.eu.qualtrics.com/jfe/form/SV_bwSq5GbvmrYv4Me?PROLIFIC_PID=" 
+					+ "<b><a href=\"https://uclpsych.eu.qualtrics.com/jfe/form/SV_dojGwYhhWyflvrE?PROLIFIC_PID=" 
 					+ SessionInfo.participantID + "\">"
 					+ "CLICK HERE</a></b>";
 			break;
