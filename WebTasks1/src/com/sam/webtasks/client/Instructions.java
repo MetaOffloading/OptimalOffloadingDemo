@@ -136,10 +136,10 @@ public class Instructions {
 					+ "Please start the questionnaire when you are ready.";
 			break;
         case 10:
-			i = "You have now completed the experiment."
-					+ "Please click on the link below to return to the survey and complete the first session:<br><br>"
-					+ "<b><a href=\"https://uclpsych.eu.qualtrics.com/jfe/form/SV_dojGwYhhWyflvrE?PROLIFIC_PID={{%PROLIFIC_PID%}}\">"
-					+ "CLICK HERE</a></b>";
+			i = "Thank you. You have now completed the experiment.";
+			//		+ "Please click on the link below to return to the survey and complete the first session:<br><br>"
+		    //			+ "<b><a href=\"https://uclpsych.eu.qualtrics.com/jfe/form/SV_dojGwYhhWyflvrE?PROLIFIC_PID={{%PROLIFIC_PID%}}\">"
+			//		+ "CLICK HERE</a></b>";
 			break;
 		}
 
@@ -181,7 +181,7 @@ public class Instructions {
                 + "results can either be obtained directly from the scientific journals' websites or from us.<br><br>"
                 + "Should you wish to raise a complaint, please contact the Investigator of this project, "
                 + "Ms Ava Scott (<a href=\"mailto:ava.scott.20@ucl.ac.uk\">ava.scott.20@ucl.ac.uk</a>), or the Principal Investigator "
-                + "Dr Sam Gilbert (<a href=\\\"mailto:sam.gilbert@ucl.ac.uk\\\">sam.gilbert@ucl.ac.uk</a>). However, "
+                + "Professor Sam Gilbert (<a href=\\\"mailto:sam.gilbert@ucl.ac.uk\\\">sam.gilbert@ucl.ac.uk</a>). However, "
                 + "if you feel your complaint has not been handled to your satisfaction, please be aware that you can "
                 + "also contact the Chair of the UCL Research Ethics Committee (<a href=\"mailto:ethics@ucl.ac.uk\">ethics@ucl.ac.uk</a>).");
     }
